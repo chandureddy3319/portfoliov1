@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Student",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/chandu.jpg",
  
   languages: ["English", "Hindi","Telugu"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -94,7 +94,7 @@ const about = {
       {
         company: "Google",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "SDE II",
         achievements: [
           <>
             Redesigned the UI/UX for the Google platform, resulting in a 20% increase in user
@@ -189,7 +189,7 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about Thoughts and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
